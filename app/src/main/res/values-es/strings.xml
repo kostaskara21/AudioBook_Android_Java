@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UnipiAudioBook</string>
+
+    <!--Strings For the MainActivity and Signup Activity-->
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="log_in">Iniciar sesión</string>
+    <string name="sign_in">Registrarse</string>
+    <string name="sign_up">Crear cuenta</string>
+
+    <!--Strings For the Bottom nav_bar-->
+    <string name="HomeMenu">Inicio</string>
+    <string name="StatsMenu">Estadísticas</string>
+    <string name="LogOutMenu">Cerrar sesión</string>
+
+    <!--Strings For the PlayBook Activity -->
+    <string name="author">Autor</string>
+    <string name="name">Nombre</string>
+    <string name="total_streams">Vistas totales</string>
+    <string name="your_views">Tus vistas</string>
+
+    <!--Strings for the Fragment Home-->
+    <string name="welcome_to_audiobooks">¡Bienvenido a Audiobooks!</string>
+    <string name="pick_a_story_to_listen">¡Elige una historia para escuchar!</string>
+    <string name="choose_language">Elige un idioma</string>
+
+    <!--Strings for the Fragment Stats-->
+    <string name="your_listening_stats">Tus estadísticas de escucha</string>
+    <string name="total_listen_of">Total de escucha de</string>
+    <string name="minutes">minutos,</string>
+    <string name="seconds">segundos</string>
+    <string name="don_t_have_an_account">¿No tienes una cuenta?</string>
+    <string name="most_viewed_artist">Artista más visto</string>
+    <string name="press_for_a_message">Presiona para un mensaje</string>
+
+</resources>

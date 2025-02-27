@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563206854390",
+    "project_id": "unipibookaudioexam",
+    "storage_bucket": "unipibookaudioexam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563206854390:android:ac18ee526dd0c5131fbed7",
+        "android_client_info": {
+          "package_name": "com.example.unipiaudiobook"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAczYW2vZphOKzErmRrAmIzfB2ctHA2fhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

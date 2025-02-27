@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="4"
+        android:text="@string/welcome_to_audiobooks"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:padding="16dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:text="@string/pick_a_story_to_listen"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+    <ScrollView
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginLeft="25dp">
+
+        <!-- In order to Use ScrollView we need to Wrap them to Linear Layout -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Use a LinearLayout to wrap the ImageButtons -->
+            <!-- Each Lineaer Layout is a row with images -->
+
+            <!-- First row with images-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- ImageButtons go inside this LinearLayout -->
+                <!-- Each Image Id is a book in the Database -->
+                <ImageButton
+                    android:id="@+id/B1"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:onClick="Listen"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img1" />
+
+                <ImageButton
+                    android:id="@+id/B2"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img2" />
+
+                <ImageButton
+                    android:id="@+id/B3"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img3" />
+
+                <ImageButton
+                    android:id="@+id/B4"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img4" />
+            </LinearLayout>
+
+            <!-- Second row with images -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/B5"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img5" />
+
+                <ImageButton
+                    android:id="@+id/B6"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img6" />
+
+                <ImageButton
+                    android:id="@+id/B7"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img7" />
+
+                <ImageButton
+                    android:id="@+id/B8"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img8" />
+            </LinearLayout>
+            <!-- Third Row with images -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/B9"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img9" />
+
+                <ImageButton
+                    android:id="@+id/B10"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img10" />
+
+                <ImageButton
+                    android:id="@+id/B11"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img11" />
+
+                <ImageButton
+                    android:id="@+id/B12"
+                    android:layout_width="73dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:scaleType="fitXY"
+                    android:onClick="Listen"
+                    android:src="@drawable/img12" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

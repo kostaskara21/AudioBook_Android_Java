@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <!-- Header -->
+                <TextView
+                android:id="@+id/tv_stats_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/your_listening_stats"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:paddingBottom="16dp" />
+
+
+
+        </LinearLayout>
+
+
+        <!--This is for the Total Listen Time of User-->
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <!-- Total Listening Time -->
+            <TextView
+                android:id="@+id/tv_total_listening_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/total_listen_of"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_total_listening_time2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_total_listening_time3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/minutes"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_total_listening_time4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tv_total_listening_time5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/seconds"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+        <!-- Books Completed -->
+        <!-- Most-Listened Genre -->
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:id="@+id/tv_books_completed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="@string/most_viewed_artist"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/tv_books_completed1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text=""
+                android:textSize="18sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:id="@+id/tv_most_listened_genre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Most Viewed Book: "
+                android:textSize="15sp"
+                android:padding="8dp" />
+            <TextView
+                android:id="@+id/tv_most_listened_genre1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10sp"
+                android:padding="8dp" />
+        </LinearLayout>
+
+        <Button
+
+            android:id="@+id/moralb"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/press_for_a_message"></Button>
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:id="@+id/statsimg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/stats">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Unipi AudioBook"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="135dp"
+            >
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>
